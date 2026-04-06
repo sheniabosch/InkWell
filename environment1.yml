@@ -1,0 +1,19 @@
+name: inkwell-project-env
+channels:
+  - pytorch
+  - ajutla
+  - conda-forge
+  - defaults
+
+dependencies:
+# === Conda Packages ===
+  - python=3.12
+  - pytorch
+  - llama-index
+  - llama-index-core
+  - llama-index-embeddings-huggingface
+  - python-dotenv
+  - sentence-transformers
+  - ragas
+  - pip
+
